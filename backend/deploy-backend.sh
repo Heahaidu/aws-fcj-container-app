@@ -41,7 +41,7 @@ REVISION=$(jq -n --arg appSpec "$APP_SPEC" '{
 }')
 
 # Trigger the deployment using the specified application name, deployment group, and revision
-aws deploy create-deployment --region "$REGION" \
-  --application-name "$AWS_APPLICATION_NAME" \
-  --deployment-group-name "$AWS_DEPLOYMENT_GROUP_NAME" \
-  --revision "$REVISION"
+# aws deploy create-deployment --region "$REGION" \
+#   --application-name "$AWS_APPLICATION_NAME" \
+#   --deployment-group-name "$AWS_DEPLOYMENT_GROUP_NAME" \
+#   --revision "$REVISION"
