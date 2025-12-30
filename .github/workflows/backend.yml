@@ -68,4 +68,4 @@ jobs:
           AWS_APPLICATION_NAME: ${{ secrets.AWS_APPLICATION_NAME }}
           AWS_DEPLOYMENT_GROUP_NAME: ${{ secrets.AWS_DEPLOYMENT_GROUP_NAME }}
           REGION: ${{ secrets.AWS_REGION }}
-        run: bash backend/deploy-backend.sh
+        # run: bash backend/deploy-backend.sh
